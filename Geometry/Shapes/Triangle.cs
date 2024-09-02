@@ -10,17 +10,17 @@ public class Triangle : ISquare
     /// <summary>
     /// Сторона A
     /// </summary>
-    private double a;
+    public double a { get; }
 
     /// <summary>
     /// Сторона B
     /// </summary>
-    private double b;
+    public double b  { get; }
 
     /// <summary>
     /// Сторона C
     /// </summary>
-    private double c;
+    public double c  { get; }
     
     /// <summary>
     /// Конструктор

@@ -6,5 +6,6 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=60a0fa30_002Dff4a_002D4adc_002D8a35_002D77749f531eba/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ValidateSides_CorrectSides_SuccessfulTriangleCreation" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;MSTest::2D2AC0EB-FDC7-4843-9E3F-4B6A176A1E91::net7.0::Geometry.Tests.TriangleTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::2D2AC0EB-FDC7-4843-9E3F-4B6A176A1E91::net7.0::Geometry.Tests.CircleTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
