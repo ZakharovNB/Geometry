@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace Geometry.Tests;
 
 /// <summary>
-/// Тестирование методов класса <see cref="Triangle"/>
+/// Тестирование методов класса <see cref="Circle"/>
 /// </summary>
 [TestClass]
 public class CircleTest
