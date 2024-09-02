@@ -10,17 +10,17 @@ public class Triangle : ISquare
     /// <summary>
     /// Сторона A
     /// </summary>
-    public double a { get; }
+    public double A { get; }
 
     /// <summary>
     /// Сторона B
     /// </summary>
-    public double b  { get; }
+    public double B  { get; }
 
     /// <summary>
     /// Сторона C
     /// </summary>
-    public double c  { get; }
+    public double C  { get; }
     
     /// <summary>
     /// Конструктор
@@ -32,15 +32,15 @@ public class Triangle : ISquare
     {
         ValidateSides(a, b, c);
 
-        (this.a, this.b, this.c) = (a, b, c);
+        (this.A, this.B, this.C) = (a, b, c);
     }
     
     /// <inheritdoc />
     public double CalculateSquare()
     {
-        var p = (a + b + c) / 2;
+        var p = (A + B + C) / 2;
 
-        return Math.Sqrt(p * (p - a) * (p - b) * (p - c));
+        return Math.Sqrt(p * (p - A) * (p - B) * (p - C));
     }
 
     /// <summary>
@@ -49,7 +49,7 @@ public class Triangle : ISquare
     /// <returns>Флаг - треугольник прямоугольный</returns>
     public bool CheckIsRightTriangle()
     {
-        var sides = new[] { a, b, c };
+        var sides = new[] { A, B, C };
 
         Array.Sort(sides);
 
